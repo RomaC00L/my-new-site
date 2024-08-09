@@ -34,7 +34,7 @@ header button, a {
    color: white;
    width: auto;
    float: left;
-   border-radius: 30px;
+   border-radius: 15px;
 }
 #navbar ul{
     display: none;
@@ -46,7 +46,12 @@ header button, a {
     text-decoration: none;
     list-style: none;
     margin-top: 35px;
-    height: auto;
+    height: 200px;
+ }
+ #navi li:hover a{
+   background-color: rgba(243, 243, 255, 0.363);
+   width: 280px;
+   height: auto;
  }
  #b2 {
     margin-left: 16.5%;
