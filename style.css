@@ -1,0 +1,248 @@
+header {
+    display: flex;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    justify-content: flex-start;
+}
+header button, a {
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 7%;
+    height: 2%;
+    background-color: blue;
+    margin-top: 0.8%;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+.nav {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 0.1%;
+    position: absolute;
+    color: white;
+    margin-left: 20%;
+}
+.nav a, li {
+   text-decoration: none;
+   background-color: blue;
+   padding: 5px;
+   color: white;
+   width: auto;
+   float: left;
+   border-radius: 15px;
+}
+#navbar ul{
+    display: none;
+    text-decoration: none;
+    list-style: none;
+}
+ #navbar li:hover ul{
+    display:block;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 35px;
+    height: 200px;
+ }
+ #navi li:hover a{
+   background-color: rgba(243, 243, 255, 0.363);
+   width: auto;
+   height: auto;
+ }
+ #b2 {
+    border-width: auto;
+    height: auto;
+   color: white;
+ }
+#i1 {
+    margin-left: 17%;
+    margin-top: 5%;
+    border-radius: 5px;
+ }
+ .content-h {
+   background-image: url(https://avatars.mds.yandex.net/i?id=5dc45f033d71439096bfc5f9c8d7c72b77a4bcf6-4884516-images-thumbs&n=13);
+   background-size: 670px 650px ;
+   float: right;
+   margin-top: 3%;
+   font-size: 25px;
+   width: 650px;
+   height: 650px;
+   margin-right: 290px;
+   font-family: cursive;
+ }
+ .content-1 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    width: 800px;
+    margin-left: 30%;
+ }
+ .content-1 p {
+   text-align: justify;
+ }
+ .content-4 {
+    display: block;
+    text-align: center;
+ }
+ .content-4 p {
+    font-size: 28px;
+ }
+ .content-4 h1 {
+    margin-top: 100px;
+    font-size: 35px;
+ }
+ .articles {
+   margin-left: 14%;
+ }
+.box-1 {
+   background-color: #ededed;
+   width: 500px;
+   height: 420px;
+   padding-top: 20px;
+   padding-right: 40px;
+   padding-bottom: 20px;
+   padding-left: 40px;
+   margin-left: 5%;
+   margin-top: 5%;
+   float: left;
+}
+.bottom-coment a {
+   text-decoration: none;
+   color: black;
+   background-color: #ededed;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   overflow-x: hidden;
+}
+.klinika{
+   float: left;
+   text-align: center;
+   margin-left: 400px;
+}
+.burdenko{
+   float: left;
+   text-align: center;
+   margin-left: 90px;
+}
+.work {
+   display: block;
+   text-align: center;
+}
+@media  screen and (max-width: 560px) {
+   main > .content > img {
+      display: none
+   }
+   .content-h {
+      background-image: url(https://avatars.mds.yandex.net/i?id=5dc45f033d71439096bfc5f9c8d7c72b77a4bcf6-4884516-images-thumbs&n=13);
+      background-size: 100% 670px;
+      float: right;
+      margin-top: 0px;
+      font-size: 20px;
+      width: 90%;
+      height: 650px;
+      margin-right: 5%;
+      font-family: cursive;
+      padding-bottom: 20px;
+      min-width: 250px;
+    }
+    .content-h h2, h3 {
+      height: auto;
+      width: auto;
+      max-width: 250px;
+    }
+    .content-h {
+      margin-left: 7%;
+    }
+   main > .content-1 {
+      width: 70%;
+      margin: auto;
+   }
+   .content-1 h1 {
+      font-size: 20px;
+   }
+   .content-1 p {
+      font-size: 15px;
+   }
+   header {
+      display: none;
+   }
+   .header {
+      background-color: blue;
+      width: 100%;
+      height: 12.5vh;
+   }
+   .header button, a {
+      border: none;
+      color: white;
+      font-size: 15px;
+      width: auto;
+      height: 10px;
+      background-color: blue;
+      margin-top: 5%;
+      cursor: pointer;
+      margin-left: 2%;
+   }
+   .nav {
+      text-decoration: none;
+      list-style: none;
+      font-size: 15px;
+      margin-top: 0.1%;
+      position: absolute;
+      color: white;
+      margin: auto;
+      flex-grow: 1;
+  }
+  .nav a, li {
+     text-decoration: none;
+     background-color: blue;
+     padding: 5px;
+     color: white;
+     width: auto;
+     float: left;
+     border-radius: 15px;
+  }
+  #navbar ul{
+      display: none;
+      text-decoration: none;
+      list-style: none;
+  }
+   #navbar li:hover ul{
+      display:block;
+      text-decoration: none;
+      list-style: none;
+      margin-top: 5px;
+      height: 200px;
+   }
+   #navi > li, a {
+      width: auto;
+      height: auto;
+   }
+}
+@media screen and (min-width: 960px) {
+   .header {
+      display: none;
+   }
+}
+@media  screen and (max-width: 560px) {
+   .r-video {
+      font-size: 14px;
+   }
+   .r-video iframe {
+      width: 70%;
+      height: 40%;
+   }
+   button, a {
+      width: auto;
+      height: auto;
+   }
+   
+}
