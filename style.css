@@ -1,0 +1,253 @@
+header {
+   display: flex;
+   height: 70px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(0, 143, 199);
+   justify-content: center;
+}
+header a {
+   color: white;
+   font-size: 19px;
+   width: auto;
+   height: 2%;
+   margin-top: 0.8%;
+   cursor: pointer;
+   margin-left: 20px;
+   text-decoration: none;
+}
+ #b2 {
+    border-width: auto;
+    height: auto;
+   color: white;
+ }
+ .content-h {
+   background-image: url(https://avatars.mds.yandex.net/i?id=5dc45f033d71439096bfc5f9c8d7c72b77a4bcf6-4884516-images-thumbs&n=13);
+   background-size: 670px 650px ;
+   float: right;
+   margin-top: 3%;
+   font-size: 25px;
+   width: 650px;
+   height: 650px;
+   margin-right: 290px;
+   font-family: cursive,'Times New Roman', Times, serif;
+ }
+ .content img {
+   margin-left: 250px;
+   margin-top: 100px;
+   border-radius: 20px;
+ }
+ .content-1 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    width: 800px;
+    margin-left: 27%;
+ }
+ .content-1 p {
+   text-align: justify;
+ }
+ .content-4 {
+    display: block;
+    text-align: center;
+ }
+ .content-4 p {
+    font-size: 28px;
+ }
+ .content-4 h1 {
+    margin-top: 100px;
+    font-size: 35px;
+ }
+ .articles {
+   margin-left: 14%;
+ }
+.box-1 {
+   background-color: #ededed;
+   width: 350px;
+   height: 350px;
+   padding-top: 20px;
+   padding-right: 40px;
+   padding-bottom: 30px;
+   padding-left: 40px;
+   margin-left: 5%;
+   margin-top: 5%;
+   float: left;
+}
+.box-1 h1 {
+   font-size: 23px;
+}
+.box-1 p {
+   font-size: 18px;
+}
+.bottom-coment a {
+   text-decoration: none;
+   color: black;
+   background-color: #ededed;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   overflow-x: hidden;
+}
+.klinika{
+   float: left;
+   text-align: center;
+   margin-left: 400px;
+}
+.burdenko{
+   float: left;
+   text-align: center;
+   margin-left: 90px;
+}
+.work {
+   display: block;
+   text-align: center;
+}
+#head-1 {
+   width: 80%;
+   margin-top: 100px;
+   margin-left: 80px;
+   border-bottom: 3px solid black;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.abot-me {
+   width: 800px
+}
+.para {
+   width: 1000px;
+   float: left;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   margin-left: 100px;
+}
+.sidebar {
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   float: right;
+   margin-right: 330px;
+}
+.sidebar button {
+   width: 220px;
+   height: 60px;
+   color: black;
+   background-color: #e4e4e4;
+   border-radius: 20px;
+   border: none;
+   margin-top: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+}
+.sidebar button:hover {
+   color: white;
+   background-color: rgb(0, 143, 199);
+   transition: ease-in-out 400ms;
+   cursor: pointer;
+}
+@media  screen and (max-width: 560px) {
+   main > .content > img {
+      display: none
+   }
+   header a {
+      font-size: 17px;
+      margin-top: 5%;
+   }
+   .about-me {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .sidebar {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 80%;
+      height: auto;
+      margin-left: 10%;
+   }
+   .sidebar a button {
+      width: auto;
+      height: auto;
+      font-size: 15px;
+      min-width: 100px;
+      padding: 10px;
+      margin-left: 10px;
+   }
+   #head-1 {
+      font-size: 32px;
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 20%;
+   }
+   .para {
+      width: 80%;
+      margin-left: 10%;
+      text-align: justify;
+   }
+   .content-h {
+      background-image: url(https://avatars.mds.yandex.net/i?id=5dc45f033d71439096bfc5f9c8d7c72b77a4bcf6-4884516-images-thumbs&n=13);
+      background-size: 100% 670px;
+      float: right;
+      margin-top: 0px;
+      font-size: 20px;
+      width: 90%;
+      height: 650px;
+      margin-right: 5%;
+      font-family: cursive;
+      padding-bottom: 20px;
+      min-width: 250px;
+    }
+    .content-h h2, h3 {
+      height: auto;
+      width: auto;
+      max-width: 250px;
+    }
+    .content-h {
+      margin-left: 7%;
+    }
+   main > .content-1 {
+      width: 70%;
+      margin: auto;
+   }
+   .content-1 h1 {
+      font-size: 20px;
+   }
+   .content-1 p {
+      font-size: 15px;
+   }
+   .content-4 h1 {
+      margin-top: 100px;
+      font-size: 30px;
+   }
+   .content-4 p {
+      font-size: 20px;
+   }
+   .box-1 {
+      margin-left: 1%;
+      width: 75%;
+      height: 360px;
+      font-size: 12px;
+   }
+   .box-1 h1 {
+      font-size: 20px;
+   }
+   .articles {
+      margin-left: 5%;
+   }
+   .r-video {
+      font-size: 14px;
+      justify-content: center;
+   }
+   .r-video iframe {
+      width: 90%;
+      height: 40%;
+   }
+   button, a {
+      width: auto;
+      height: auto;
+   }
+}
