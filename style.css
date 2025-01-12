@@ -1,0 +1,637 @@
+header {
+   display: flex;
+   height: 70px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(0, 143, 199);
+   justify-content: center;
+}
+header a {
+   color: white;
+   font-size: 19px;
+   width: auto;
+   height: 2%;
+   margin-top: 0.8%;
+   cursor: pointer;
+   margin-left: 10px;
+   text-decoration: none;
+}
+ #b2 {
+    border-width: auto;
+    height: auto;
+   color: white;
+ }
+ .content-h {
+   background-image: url(img/papirus.webp);
+   background-size: 690px 650px ;
+   float: right;
+   margin-top: 3%;
+   font-size: 24px;
+   width: 650px;
+   height: 650px;
+   margin-right: 290px;
+   font-family: cursive,'Times New Roman', Times, serif;
+ }
+ .content-h h2 {
+   margin-left: 10%;
+   margin-top: 170px;
+ }
+ .content-h h3 {
+   margin: auto;
+   max-width: 70%;
+ }
+ .content-h p {
+   font-size: 20px;
+   display: block;
+   text-align: end;
+   font-style: italic;
+   margin-right: 15%;
+ }
+ .content img {
+   margin-left: 250px;
+   margin-top: 100px;
+   border-radius: 20px;
+ }
+ .content-1 {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 100px;
+    width: 800px;
+    margin-left: 27%;
+ }
+ .content-1 p {
+   text-align: justify;
+ }
+ .content-4 {
+    display: block;
+    text-align: center;
+ }
+ .content-4 p {
+    font-size: 28px;
+ }
+ .content-4 h1 {
+    margin-top: 100px;
+    font-size: 35px;
+ }
+ .articles {
+   margin-left: 14%;
+ }
+.box-1 {
+   background-color: #ededed;
+   width: 350px;
+   height: 350px;
+   padding-top: 20px;
+   padding-right: 40px;
+   padding-bottom: 30px;
+   padding-left: 40px;
+   margin-left: 5%;
+   margin-top: 5%;
+   float: left;
+}
+.box-1 h1 {
+   font-size: 23px;
+}
+.box-1 p {
+   font-size: 18px;
+}
+.bottom-coment a {
+   text-decoration: none;
+   color: black;
+   background-color: #ededed;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   overflow-x: hidden;
+}
+#head-1 {
+   width: 80%;
+   margin-top: 100px;
+   margin-left: 80px;
+   border-bottom: 3px solid black;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.abot-me {
+   width: 800px
+}
+.burdenko {
+   background-image: url(img/burdenko.jpg);
+   background-size: 1000px 500px;
+   width: 1000px;
+   height: 500px;
+   color: white;
+   text-align: right;
+}
+.burdenko h2 {
+   padding-top: 380px;
+   padding-left: 630px;
+   width: 350px;
+}
+.kardio {
+   width: 100%;
+   margin-top: 100px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+.kardio img {
+   width: auto;
+   height: 700px;
+}
+.kardio p {
+   text-align: justify;
+   margin-left: 20px;
+   font-size: 20px;
+}
+.kardio-2 {
+   width: 100%;
+   text-align: justify;
+   margin-top: 50px;
+   font-size: 20px;
+}
+.kardio-2 h2 {
+   text-align: center;
+}
+.klinika {
+   display: flex;
+   flex-direction: row;
+}
+.klinika-2 {
+   margin-left: 20px;
+}
+.klinika-2 h2 {
+   text-align: center;
+}
+.klinika-3 {
+   display: flex;
+   flex-direction: row;
+   margin-top: 50px;
+   border: rgb(0, 143, 199) 5px solid;
+   border-radius: 10px;
+   width: auto;
+   height: auto;
+   -webkit-mask-image: linear-gradient(-75deg, rgba(47, 0, 255, 0.267) 30%, #ffffff 10%, rgb(255, 255, 255) 70%);
+   -webkit-mask-size: 200%;
+   animation: wave 1.5s infinite linear;
+   padding-bottom: 40px;
+}
+@-webkit-keyframes wave {
+   from {
+     -webkit-mask-position: 150%;
+   }
+   to {
+     -webkit-mask-position: -50%;
+   }
+ }
+@keyframes rougle {
+   0%{
+      transform: translate(0px, 0px);
+   }
+   12%{
+      transform: translate(12px, 0px);
+   }
+   24%{
+      transform: translate(-10px, 0px);
+   }
+   60%{
+      transform: translate(12px, 0px);
+   }
+   72%{
+      transform: translate(-10px, 0px);
+   }
+   100%{
+      transform: translate(0px, 0px);
+   }
+}
+#d1 {
+   margin-left: 100px;
+   width: 200px;
+   height: 90px;
+   padding-right: 40px;
+}
+#d2 {
+   width: 190px;
+   height: 90px;
+   text-align: center;
+}
+#d2:hover {
+   animation: 0.7s rougle linear;
+}
+#d1:hover {
+   animation: 0.7s rougle linear;
+}
+.para {
+   width: 1000px;
+   float: left;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   margin-left: 100px;
+}
+.para button{
+   width: 220px;
+   height: 60px;
+   color: black;
+   background-color: #e4e4e4;
+   border-radius: 20px;
+   border: none;
+   margin-top: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   cursor: pointer;
+}
+.para button:hover {
+   color: white;
+   background-color: rgb(0, 143, 199);
+   transition: ease-in-out 400ms;
+}
+.head-in-para {
+   text-align: center;
+   margin-top: 50px;
+}
+.sidebar {
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   float: right;
+   margin-right: 330px;
+}
+.sidebar button {
+   width: 220px;
+   height: 60px;
+   color: black;
+   background-color: #e4e4e4;
+   border-radius: 20px;
+   border: none;
+   margin-top: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   margin-top: 5px;
+}
+.sidebar button:hover {
+   color: white;
+   background-color: rgb(0, 143, 199);
+   transition: ease-in-out 400ms;
+   cursor: pointer;
+}
+.patent img {
+   width: 500px;
+   height: 500px;
+   margin-top: 20px;
+}
+.patent {
+   display: flex;
+   flex-direction: row;
+}
+.patent a {
+   margin-top: 100px;
+   margin-left: 50px;
+   width: 220px;
+   height: 60px;
+}
+#carouselExample {
+   width: 70%;
+   height: auto;
+   min-height: 700px;
+}
+.para-special {
+   display: flex;
+   flex-direction: row;
+   margin: 50px;
+}
+#h-on-in {
+   display: block;
+   text-align: center;
+   margin-top: 30px;
+}
+.carousel-inner a button {
+   font-size: 26px;
+   -webkit-mask-image: linear-gradient(-75deg, rgba(47, 0, 255, 0.267) 30%, #ffffff 10%, rgb(255, 255, 255) 70%);
+   -webkit-mask-size: 200%;
+   animation: wave 1.5s infinite linear;
+   color: white;
+   background-color: rgb(0, 143, 199);
+   margin-left: 47%;
+   border-radius: 20px;
+   margin-top: 10px;
+}
+.carousel-inner h2 {
+   text-align: center;
+   margin-top: 20px;
+}
+#carouselExample button {
+   border-radius: 20px;
+   margin-top: 20px;
+   margin: -50px;
+}
+#h-special {
+   margin-left: 65%;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+}
+#carouselExample p {
+   width: 80%;
+   height: auto;
+   margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-size: 26px;
+}
+.phone{
+   text-align: center;
+   float: left;
+   margin-left: 550px;
+}
+.mail{
+   text-align: center;
+   float: left;
+   margin-left: 190px;
+}
+.connect{
+   margin-top: 80px;
+}
+.laptop{
+   text-align: center;
+   float: left;
+   margin-left: 190px;
+}
+.para-s {
+   width: auto;
+   justify-content: space-around;
+   text-align: center;
+}
+.social-s {
+   display: flex;
+   flex-direction: column;
+   margin-top: 15%;
+   text-align: center;
+}
+.social-s h2 {
+   font-size: 30px;
+   text-align: center;
+}
+.social-s p {
+   font-size: 23px;
+}
+.social-s-1{
+   display: flex;
+   flex-direction: row;
+   margin: auto;
+}
+.social-s-1 a {
+   margin: 20px;
+}
+.carousel-item {
+   background-image: url(img/papirus.webp);
+   background-size: 100% 100%;
+   height: auto;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   padding-right: 50px;
+   margin-left: 50px;
+}
+#sidebar-s {
+   margin-right: 870px;
+}
+@media  screen and (max-width: 560px) {
+   main > .content > img {
+      width: 80%;
+      height: auto;
+      margin-left: 40px;
+      margin-top: 30px;
+      border-radius: 5px;
+   }
+   header a {
+      font-size: 17px;
+      margin-top: 5%;
+   }
+   .about-me {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .sidebar {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: auto;
+      margin-left: 10%;
+      margin-right: 0px;
+   }
+   .sidebar a button {
+      width: auto;
+      height: auto;
+      font-size: 15px;
+      min-width: 100px;
+      padding: 10px;
+      margin-left: 10px;
+   }
+   #sidebar-s {
+      margin-right: 20px;
+      margin-bottom: 20px;
+   }
+   #head-1 {
+      font-size: 32px;
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 20%;
+   }
+   .para {
+      width: 80%;
+      margin-left: 10%;
+      text-align: justify;
+   }
+   .para h2 {
+      font-size: 20px;
+   }
+   .content-h {
+      background-size: 100% 420px;
+      float: right;
+      margin-top: 0px;
+      font-size: 20px;
+      width: 90%;
+      height: 420px;
+      margin-right: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      padding-bottom: 20px;
+      min-width: 250px;
+   }
+   .content-h h2, h3 {
+      height: auto;
+      width: auto;
+      max-width: 250px;
+      margin-top: 90px;
+   }
+   .content-h {
+      margin-left: 7%;
+   }
+   main > .content-1 {
+      width: 90%;
+      margin: auto;
+   }
+   .content-1 h1 {
+      font-size: 29px;
+   }
+   .content-1 p {
+      font-size: 24px;
+   }
+   .content-4 h1 {
+      margin-top: 100px;
+      font-size: 30px;
+   }
+   .content-4 p {
+      font-size: 20px;
+   }
+   .box-1 {
+      margin-left: 1%;
+      width: 75%;
+      height: 360px;
+      font-size: 12px;
+      margin-top: 20px;
+      text-align: left;
+   }
+   .box-1 h1 {
+      font-size: 18px;
+   }
+   .para h2 {
+      font-size: 20px;
+      text-align: center;
+   }
+   .para img {
+      width: 95%;
+      height: 40%;
+   }
+   .patent {
+      flex-direction: column;
+   }
+   .patent a {
+      margin-left: 40px;
+   }
+   .patent img {
+      margin-left: 10px;
+      margin-top: 50px;
+   }
+   .articles {
+      margin-left: 5%;
+   }
+   .r-video {
+      font-size: 12px;
+      justify-content: center;
+   }
+   .r-video video {
+      width: 90%;
+      height: 40%;
+      margin-left: 20px;
+   }
+   button, a {
+      width: auto;
+      height: auto;
+   }
+   .klinika {
+      flex-direction: column;
+      margin-top: 70px;
+      align-items: center;
+   }
+   .klinika-3 {
+      flex-direction: column;
+      margin-top: 10px;
+      text-align: center;
+      margin-left: auto;
+   }
+   .klinika-2 h2 {
+      margin-top: 50px;
+   }
+   #d1 {
+      width: 100%;
+      margin: 0px;
+   }
+   #d2 {
+      width: 100%;
+   }
+   .burdenko {
+      background-image: url(img/burdenko.jpg);
+      background-size: 100% auto;
+      width: 98%;
+      height: auto;
+      color: white;
+      text-align: left;
+   }
+   .burdenko h2 {
+      padding-top: 80px;
+      padding-left: 48%;
+      width: 150px;
+      font-size: 15px;
+      text-align: right;
+   }
+   .kardio {
+      flex-direction: column;
+   }
+   .kardio img {
+      margin-left: 3%;
+   }
+   .kardio p {
+      margin-left: 0px;
+   }
+   #h101 {
+      font-size: 20px;
+   }
+   #carouselExample {
+      width: 100%;
+      height: auto;
+   }
+   #carouselExample button {
+      margin: -27px;
+   }
+   .para-special {
+      flex-direction: column;
+   }
+   .para-special img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   .karusel-special {
+      display: block;
+   }
+   #carouselExample p {
+      font-size: 20px;
+      padding-top: 10px;
+   }
+   .para-special {
+      width: 90%;
+      margin: auto;
+   }
+   #h-special {
+      width: 150px;
+      margin-left: 40%;
+      font-size: 21px;
+   }
+   .connect {
+      flex-direction: column;
+      text-align: center;
+   }
+   .phone {
+      margin-left: 33%;
+   }
+   .mail {
+      margin-left: 27%;
+   }
+   .laptop {
+      margin-left: 42%;
+   }
+   .social-s {
+      margin-top: 500px;
+   }
+   .carousel-item {
+      height: auto;
+
+      margin-left: 16px;
+      padding-right: 20px;
+   }
+   .carousel-inner a button {
+      margin-left: 32%;
+   }
+}
